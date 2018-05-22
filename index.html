@@ -3,6 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <title>Jokenpô</title>
+        <link rel="shortcut icon" href="assets/images/favicon.png" />
+
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
         <link rel="stylesheet" href="assets/css/pure.css" />
     </head>
@@ -14,6 +16,12 @@
                         <h2>Jokenpô
                             <small>(Jogo da Pedra, Papel ou Tesoura)</small>
                         </h2>
+                        <p>Os jogadores comparam os símbolos para decidir quem ganhou, da seguinte forma:</p>
+                        <ul class="list-group">
+                            <li class="list-group-item-heading li-style">Pedra ganha da tesoura (amassando-a ou quebrando-a).</li>
+                            <li class="list-group-item-heading li-style">Tesoura ganha do papel (cortando-o).</li>
+                            <li class="list-group-item-heading li-style">Papel ganha da pedra (embrulhando-a).</li>
+                        </ul>
                     </div>
                 </div>
                 <hr/>
@@ -23,9 +31,9 @@
                     <div class="col-md-12">
                         <h3 class="text-center">Você deseja escolher pedra, papel ou tesoura?</h3>
                         <div class="text-center mt10">
-                            <img src="assets/images/pedra.png" alt="Pedra" onclick="jokenpo('pedra')" class="img-rounded">
-                            <img src="assets/images/papel.png" alt="Papel" onclick="jokenpo('papel')" class="img-rounded">
-                            <img src="assets/images/tesoura.png" alt="Tesoura" onclick="jokenpo('tesoura')" class="img-rounded">
+                            <img src="assets/images/pedra.png" alt="Pedra" onclick="jokenpo('pedra')" class="img-rounded img-effect">
+                            <img src="assets/images/papel.png" alt="Papel" onclick="jokenpo('papel')" class="img-rounded img-effect">
+                            <img src="assets/images/tesoura.png" alt="Tesoura" onclick="jokenpo('tesoura')" class="img-rounded img-effect">
                         </div>
                         <hr/>
                     </div>

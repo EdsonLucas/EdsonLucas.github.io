@@ -33,6 +33,20 @@ body {
     top: 50%;
 }
 
+.img-effect {
+    transition: all 0.3s ease;
+}
+
+.img-effect:hover {
+      -webkit-transform: rotateZ(-30deg);
+      -ms-transform: rotateZ(-30deg);
+      transform: rotateZ(-30deg);
+}
+
+.li-style {
+    list-style-type: none;
+}
+
 /*  --------------------------------------------------------
 PADDING STYLE
 -------------------------------------------------------- */
