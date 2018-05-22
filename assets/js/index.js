@@ -59,8 +59,8 @@ function compare(var1, var2) {
 }
 
 function result() {
-    document.querySelector("#player").innerHTML = '<h3 class="tcenter">Jogador <p>'+ contPlayer +'</p></h3> <br /> <img src="images/'+ value +'.png" alt="'+ value +'" class="img-rounded img-center img-responsive">';
-    document.querySelector("#machine").innerHTML = '<h3 class="tcenter">Máquina <p>'+ contMachine +'</p></h3> <br /> <img src="images/'+ machine +'.png" alt="'+ machine +'" class="img-rounded img-center img-responsive">';
-    document.querySelector("#vs").innerHTML = '<img src="images/vs.png" alt="Versus" class="vs img-center img-responsive" />';
+    document.querySelector("#player").innerHTML = '<h3 class="tcenter">Jogador <p>'+ contPlayer +'</p></h3> <br /> <img src="assets/images/'+ value +'.png" alt="'+ value +'" class="img-rounded img-center img-responsive">';
+    document.querySelector("#machine").innerHTML = '<h3 class="tcenter">Máquina <p>'+ contMachine +'</p></h3> <br /> <img src="assets/images/'+ machine +'.png" alt="'+ machine +'" class="img-rounded img-center img-responsive">';
+    document.querySelector("#vs").innerHTML = '<img src="assets/images/vs.png" alt="Versus" class="vs img-center img-responsive" />';
     document.querySelector("#result").innerHTML = '<h3 class="tcenter mt20">'+ text +'</h3>';
 }
