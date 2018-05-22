@@ -1,1 +1,43 @@
-hello world
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Jokenpô</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="pure.css" />
+    </head>
+    <body>
+        <section>
+            <div class="container">
+                <div class="row">
+                     <div class="col-xs-12 col-md-12 col-sm-12 text-center">
+                        <h2>Jokenpô
+                            <small>(Jogo da Pedra, Papel ou Tesoura)</small>
+                        </h2>
+                    </div>
+                </div>
+                <hr/>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="text-center">Você deseja escolher pedra, papel ou tesoura?</h3>
+                        <div class="text-center mt10">
+                            <img src="images/pedra.png" alt="Pedra" onclick="jokenpo('pedra')" class="img-rounded">
+                            <img src="images/papel.png" alt="Papel" onclick="jokenpo('papel')" class="img-rounded">
+                            <img src="images/tesoura.png" alt="Tesoura" onclick="jokenpo('tesoura')" class="img-rounded">
+                        </div>
+                        <hr/>
+                    </div>
+                    <div class="col-md-12">
+                        <div id="player" class="box col-md-4"></div>
+                        <div id="vs" class="box col-md-4"></div>
+                        <div id="machine" class="box col-md-4"></div>
+                    </div>
+                    <div id="result" class="co-md-12 pb30"></div>
+                </div>
+            </div>
+        </section>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>
